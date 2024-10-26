@@ -34,6 +34,10 @@ export default function Home(){
      <div className="movies-container">
       {topMovies && topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
     </div>
+
+    <div className="Footer">
+     <footer>icon by "Hilmy Abiyyu Asa" on freeicons.io</footer>
+    </div>
    </div>
   )
 }
