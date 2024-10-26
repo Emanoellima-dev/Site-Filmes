@@ -15,3 +15,9 @@ a {
  color: #F7D354;
  transition: 0.5s;
 }
+
+footer {
+  font-weight: bold;
+  margin-left: 1rem;
+  text-align: center;
+}
