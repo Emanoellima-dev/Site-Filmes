@@ -95,4 +95,8 @@
   text-align: center;
   margin: 2rem 0 1rem;
 }
+
+.movies-container div footer {
+  margin-top: 0.3rem;
+ }
 }
