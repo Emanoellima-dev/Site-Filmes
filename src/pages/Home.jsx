@@ -29,12 +29,12 @@ export default function Home(){
  }, [])
 
   return (
-    <div className="container">
+   <div className="container">
      <h2 className="title">Melhores filmes:</h2>
      <div className="movies-container">
       {topMovies && topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
+      <footer>icon by "Hilmy Abiyyu Asa" on freeicons.io</footer>
      </div>
-     <footer>icon by "Hilmy Abiyyu Asa" on freeicons.io</footer>
-    </div>
+   </div>
   )
 }
