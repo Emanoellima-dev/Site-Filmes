@@ -36,7 +36,7 @@ export default function Home(){
     </div>
 
     <div className="Footer">
-     <footer>icon by "Hilmy Abiyyu Asa" on freeicons.io</footer>
+     <footer>favicon by "Hilmy Abiyyu Asa" on freeicons.io</footer>
     </div>
    </div>
   )
