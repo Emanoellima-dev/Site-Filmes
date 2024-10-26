@@ -12,7 +12,6 @@ export default function MovieCard({ movie, showLink = true }){
        <FaStar/> {movie.vote_average}
      </p>
      {showLink && <Link to={`/movie/${movie.id}`} className="Link">Detalhes</Link>}
-     <footer>icon by "Hilmy Abiyyu Asa" on freeicons.io</footer>
-   </div>
+  </div>
   )
 }
